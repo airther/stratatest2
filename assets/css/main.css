@@ -2479,6 +2479,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
+		background-image: url("../../images/bg.jpg");
 		background-color: #000;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
