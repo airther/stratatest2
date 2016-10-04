@@ -2479,12 +2479,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #fff;
-		background-attachment: fixed,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								repeat;
-		background-size: auto,								auto 125%;
+		background-color: #000;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
