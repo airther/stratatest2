@@ -2480,11 +2480,11 @@
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #fff;
-		background-attachment: relative,								relative;
+		background-attachment: relative,								fixed;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: no-repeat,								no-repeat;
-		background-size: cover,								auto 125%;
+		background-size: auto,								auto 125%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
