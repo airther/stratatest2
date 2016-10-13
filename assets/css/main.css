@@ -2487,7 +2487,6 @@
 		text-align: right;
 		top: 0;
 		width: 35%;
-		color: #a2a2a2;
 	}
 
 		#header > * {
@@ -2496,7 +2495,6 @@
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			width: 100%;
-			color: #a2a2a2;
 		}
 
 		#header > .inner {
@@ -2504,7 +2502,6 @@
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
-			color: #a2a2a2;
 		}
 
 		#header strong, #header b {
