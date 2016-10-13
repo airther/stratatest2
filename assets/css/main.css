@@ -2502,6 +2502,7 @@
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
+			color: rgba(0, 0, 0, 0.4);
 		}
 
 		#header strong, #header b {
