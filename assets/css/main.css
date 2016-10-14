@@ -1573,6 +1573,10 @@
 		line-height: 1.75em;
 	}
 
+	piclink {
+		border-bottom: dotted 1px;
+	}
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
