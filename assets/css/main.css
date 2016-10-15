@@ -1575,7 +1575,7 @@
 
 	piclink {
 		border-bottom: dotted 1px;
-		line-height: 1em;
+		line-height: 50%;
 	}
 
 	a {
@@ -1712,7 +1712,7 @@
 
 	.align-right {
 		text-align: right;
-		line-height: 1em;
+		line-height: 50%;
 	}
 
 /* Section/Article */
@@ -2067,12 +2067,12 @@
 
 		.image.left, .image.right {
 			max-width: 40%;
-			line-height: 1em;
+			line-height: 50%;
 		}
 
 			.image.left img, .image.right img {
 				width: 100%;
-				line-height: 1em;
+				line-height: 50%;
 			}
 
 		.image.fit {
