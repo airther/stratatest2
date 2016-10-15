@@ -1964,6 +1964,30 @@
 			padding: 0;
 		}
 
+
+
+/* Box2 */
+
+	.box2 {
+		border-radius: 0.35em;
+		border: solid 2px #efefef;
+		margin-bottom: 2em;
+		padding: 1.5em;
+	}
+
+		.box2 > :last-child,
+		.box2 > :last-child > :last-child,
+		.box2 > :last-child > :last-child > :last-child {
+			margin-bottom: 0;
+		}
+
+		.box2.alt2 {
+			border: 0;
+			border-radius: 0;
+			padding: 0;
+		}
+
+
 /* Icon */
 
 	.icon {
