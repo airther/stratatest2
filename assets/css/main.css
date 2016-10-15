@@ -1991,7 +1991,7 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
-		line-height:100%;
+		line-height:150%;
 		/* This controls the line spacing for captions below picures */
 	}
 
