@@ -2616,13 +2616,14 @@
 		width: calc(100% - 35%);
 		background-image: url("assets/css/images/overlay.png"), url("images/write.jpg");
 		background-size: auto, cover;
-		background-attachment: scroll, fixed;
 	}
 
 		#maincover > section {
 			border-top: solid 2px #efefef;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
+			background-image: url("assets/css/images/overlay.png"), url("images/write.jpg");
+			background-size: auto, cover;
 		}
 
 			#maincover > section:first-child {
