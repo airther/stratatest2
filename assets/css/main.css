@@ -2944,6 +2944,16 @@
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
+		
+		
+		/* MainCover */
+
+			#maincover {
+				margin-left: 30%;
+				max-width: none;
+				padding: 6em 3em 3em 3em;
+				width: calc(100% - 30%);
+			}
 
 	}
 
@@ -3022,6 +3032,15 @@
 				padding: 6em 4em;
 				width: 100%;
 			}
+		
+		
+		/* MainCover */
+
+			#maincover {
+				margin: 0;
+				padding: 6em 4em;
+				width: 100%;
+			}
 
 	}
 
@@ -3090,6 +3109,18 @@
 					padding: 2.25em 0 0 0;
 				}
 
+		/* MainCover */
+
+			#maincover {
+				padding: 2.25em 1.5em 0.25em 1.5em;
+			}
+
+				#maincover > section {
+					margin: 2.25em 0 0 0;
+					padding: 2.25em 0 0 0;
+				}
+		
+		
 		/* Poptrox */
 
 			.poptrox-popup {
