@@ -2067,6 +2067,7 @@
 
 		.image.left, .image.right {
 			max-width: 40%;
+			line-height: 1em;
 		}
 
 			.image.left img, .image.right img {
