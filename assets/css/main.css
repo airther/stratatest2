@@ -1991,7 +1991,8 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
-		line-height:50%;
+		line-height:100%;
+		/* This controls the line spacing for captions below picures */
 	}
 
 		.image:before {
