@@ -1993,6 +1993,7 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
+		line-height:50%;
 	}
 
 		.image:before {
