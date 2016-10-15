@@ -2618,29 +2618,6 @@
 			}
 
 
-/* MainHome */
-
-	#mainhome {
-		margin-left: 35%;
-		max-width: 54em;
-		padding: 8em 4em 4em 4em;
-		width: calc(100% - 35%);
-		background-image:url("http://newsjunkiepost.com/wp-content/uploads/2011/07/Resist2.png");
-	}
-
-		#mainhome > section {
-			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
-		}
-
-			#mainhome > section:first-child {
-				border-top: 0;
-				margin-top: 0;
-				padding-top: 0;
-			}
-
-
 
 /* Poptrox */
 
@@ -2958,15 +2935,6 @@
 				width: calc(100% - 30%);
 			}
 		
-		/* MainHome */
-
-			#mainhome {
-				margin-left: 30%;
-				max-width: none;
-				padding: 6em 3em 3em 3em;
-				width: calc(100% - 30%);
-			}
-		
 
 
 	}
@@ -3047,14 +3015,6 @@
 				width: 100%;
 			}
 		
-		/* MainHome */
-
-			#mainhome {
-				margin: 0;
-				padding: 6em 4em;
-				width: 100%;
-			}
-		
 
 	}
 
@@ -3119,17 +3079,6 @@
 			}
 
 				#main > section {
-					margin: 2.25em 0 0 0;
-					padding: 2.25em 0 0 0;
-				}
-		
-		/* MainHome */
-
-			#mainhome {
-				padding: 2.25em 1.5em 0.25em 1.5em;
-			}
-
-				#mainhome > section {
 					margin: 2.25em 0 0 0;
 					padding: 2.25em 0 0 0;
 				}
