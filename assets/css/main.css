@@ -2085,6 +2085,18 @@
 				width: 100%;
 			}
 
+		.image.cover {
+			display: block;
+			margin: 0 0 0em 0;
+			background-size:cover
+		}
+
+			.image.cover img {
+				background-size:cover
+			}
+
+		/* Above two "cover" sections added by me in order to make a different effect for the image on the homepage */
+
 		.image.avatar {
 			border-radius: 100%;
 		}
