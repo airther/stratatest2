@@ -1553,7 +1553,8 @@
 	body {
 		background: #fff;
 		background-image:url("https://hd.unsplash.com/photo-1465403157034-1d5e05cc2ac0");
-		background-position:;
+		background-size: cover;
+		background-repeat:   no-repeat;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2628,9 +2629,6 @@
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
-		background-image:url("https://hd.unsplash.com/photo-1465403157034-1d5e05cc2ac0");
-		background-size: cover;
-		background-repeat:   no-repeat;
 	}
 
 		#frontpage > section {
