@@ -1558,6 +1558,29 @@
 
 /* Basic */
 
+	body {
+		background: #fff;
+	}
+
+		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+		}
+
+	body, input, select, textarea {
+		color: #a2a2a2;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 16pt;
+		font-weight: 400;
+		line-height: 1.75em;
+	}
+
 	landing {
 		background: #fff;
 		background-image:url("https://hd.unsplash.com/photo-1465403157034-1d5e05cc2ac0");
@@ -1577,29 +1600,6 @@
 		}
 
 	landing {
-		color: #a2a2a2;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
-		font-weight: 400;
-		line-height: 1.75em;
-	}
-
-	body {
-		background: #fff;
-	}
-
-		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
-
-	body, input, select, textarea {
 		color: #a2a2a2;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
