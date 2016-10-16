@@ -2627,8 +2627,7 @@
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
 		background-image:url("https://hd.unsplash.com/photo-1465403157034-1d5e05cc2ac0");
-		background-size:cover;
-		height:100%;
+		background-size: auto, 100%;
 	}
 
 		#frontpage > section {
