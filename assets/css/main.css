@@ -2632,7 +2632,7 @@
 		background-image: url("https://layneflower.com/assets/css/images/overlay.png"), url("https://layneflower.com/images/avatar.jpg");
 		background-position: top left, top left;
 		background-repeat: repeat, no-repeat;
-		background-size: auto, auto;
+		background-size: auto, cover;
 	}
 
 		#frontpage > section {
