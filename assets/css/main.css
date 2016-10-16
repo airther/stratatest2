@@ -2626,9 +2626,8 @@
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
-		height:100%;
 		background-image:url("https://hd.unsplash.com/photo-1465403157034-1d5e05cc2ac0");
-		background-size: auto, 200%;
+		background-size: cover;
 		background-repeat:   no-repeat;
 	}
 
