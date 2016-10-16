@@ -22,7 +22,11 @@
 		display: block;
 	}
 
-	body, landing {
+	body {
+		line-height: 1;
+	}
+
+	landing {
 		line-height: 1;
 	}
 
@@ -44,7 +48,11 @@
 		border-spacing: 0;
 	}
 
-	body, landing {
+	body {
+		-webkit-text-size-adjust: none;
+	}
+
+	landing {
 		-webkit-text-size-adjust: none;
 	}
 
