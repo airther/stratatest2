@@ -2627,8 +2627,10 @@
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
-		background-image: url("https://layneflower.com/images/avatar.jpg"), url("https://layneflower.com/assets/css/images/overlay.png");
-		background-size:cover;
+		background-image: url("https://layneflower.com/assets/css/images/overlay.png"), url("https://layneflower.com/images/avatar.jpg");
+		background-position: top left, top left;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, auto cover;
 	}
 
 		#frontpage > section {
