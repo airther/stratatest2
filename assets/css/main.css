@@ -1589,7 +1589,6 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
 		color: #787878;
 		text-decoration: none;
 	}
@@ -2522,6 +2521,7 @@
 		padding: 8em 4em 0em 4em;
 		position: fixed;
 		text-align: center;
+		line-height:100%;
 		top: 0;
 		width: 35%;
 	}
@@ -2596,6 +2596,7 @@
 
 			#footer .copyright li a {
 				color: inherit;
+				border-bottom: dotted 1px;
 			}
 
 /* Main */
@@ -2619,6 +2620,9 @@
 				padding-top: 0;
 			}
 
+	#main a {
+		border-bottom: dotted 1px;
+	}
 
 /* Frontpage */
 
