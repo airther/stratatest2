@@ -9,7 +9,7 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, piclink, introtext {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, piclink, introtext, sourcetext, sidebartext {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -1578,6 +1578,16 @@
 		border-bottom: dotted 1px;
 	/* I created PicLink just to have a dotted underline beneath photo captions which are supposed to be links. Made this because I was unable to hyperlink text alone - had to also hyperlink the image - in the current css scheme and didn't want to restructure the css. I use this underline to imitate the look of links throughout the rest of the site */
 	}
+	
+	sourcetext {
+		font-size: 75%;
+	/* I created sourcetext for the 'source' links under testimonial quotes */
+	}
+	
+	sidebartext {
+		font-size: 80%;
+	/* I created sidebartext for the sidebar links under the avatar */
+	}
 
 	introtext {
 		font-size:200%;
@@ -2543,12 +2553,6 @@
 
 		#header strong, #header b {
 			color: #000;
-		}
-		
-		#header a:hover {
-			border-bottom-color: transparent;
-			color: #49bf9d !important;
-			text-decoration: none;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
