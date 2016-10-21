@@ -2544,6 +2544,12 @@
 		#header strong, #header b {
 			color: #000;
 		}
+		
+		#header a:hover {
+			border-bottom-color: transparent;
+			color: #49bf9d !important;
+			text-decoration: none;
+		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #000;
